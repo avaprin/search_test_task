@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "appTitle": "Search Test Task",
+  "@appTitle": {
+    "description": "Application title shown by the OS task switcher."
+  }
+}
