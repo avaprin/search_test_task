@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'features/search/screen/search_screen.dart';
 import 'shared_ui/shared_ui.dart';
 
 class SearchApp extends StatelessWidget {
@@ -13,7 +14,7 @@ class SearchApp extends StatelessWidget {
       supportedLocales: AppLocalizations.supportedLocales,
       theme: AppTheme.light(),
       darkTheme: AppTheme.dark(),
-      home: const Scaffold(),
+      home: const SearchScreen(),
     );
   }
 }
