@@ -3,5 +3,17 @@
   "appTitle": "Search Test Task",
   "@appTitle": {
     "description": "Application title shown by the OS task switcher."
+  },
+  "errorTooManyRequests": "Too many requests. Try again in a moment",
+  "@errorTooManyRequests": {
+    "description": "Error shown when the search API rate limit is reached."
+  },
+  "errorFetchFailed": "Couldn't load results. Check your connection",
+  "@errorFetchFailed": {
+    "description": "Error shown when results fail to load, e.g. due to a network problem."
+  },
+  "errorUnknown": "Something went wrong",
+  "@errorUnknown": {
+    "description": "Fallback error shown for unexpected failures."
   }
 }
