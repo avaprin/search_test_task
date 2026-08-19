@@ -4,6 +4,14 @@
   "@appTitle": {
     "description": "Application title shown by the OS task switcher."
   },
+  "searchHint": "Search",
+  "@searchHint": {
+    "description": "Hint text inside the empty search field."
+  },
+  "retryButton": "Retry",
+  "@retryButton": {
+    "description": "Button that repeats a failed search request."
+  },
   "errorTooManyRequests": "Too many requests. Try again in a moment",
   "@errorTooManyRequests": {
     "description": "Error shown when the search API rate limit is reached."
